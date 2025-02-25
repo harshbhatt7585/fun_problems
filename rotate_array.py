@@ -18,6 +18,7 @@ def rorate_array(array: list, k: int):
         array.append(pop_ele)
         if idx == k:
             break
+        print("Hello")
     return array
 
 ## How I am solving it
