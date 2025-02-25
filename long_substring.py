@@ -16,7 +16,7 @@ def get_longest_substring(string: str):
     sub_str = ""
     for s in string:
         if count.get(s, False):
-            break
+            continue
         count[s] = 1
         sub_str += s
     
@@ -24,7 +24,7 @@ def get_longest_substring(string: str):
 
 
 if __name__ == "__main__":
-    sub_str = get_longest_substring("abcabcbb")
+    sub_str = get_longest_substring("abcabcbbd")
     print(sub_str)
 
             
