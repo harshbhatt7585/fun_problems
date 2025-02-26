@@ -24,7 +24,7 @@ def get_longest_substring(string: str):
 
 
 if __name__ == "__main__":
-    sub_str = get_longest_substring("abcabcbbd")
+    sub_str = get_longest_substring("abcabcbbddkdsjfdodatttad")
     print(sub_str)
 
             
