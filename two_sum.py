@@ -10,7 +10,8 @@ Input: [2, 7, 11, 15], target = 9
 Output: [0, 1] (because 2 + 7 = 9)
 """
 
-
+# Time Complexity: O(N)
+# Space Complexity: O(N)
 def two_sum(array: list, target: int):
     dict_ = {}
     for i, ele in enumerate(array):
@@ -19,6 +20,6 @@ def two_sum(array: list, target: int):
         else:
             dict_[ele] = i
     
-    
 
-print(two_sum([2, 7, 11, 15], 9))
+if __name__ == "__main__":
+    print(two_sum([2, 7, 11, 15], 9))
